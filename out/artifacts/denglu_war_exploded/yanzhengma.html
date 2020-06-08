@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>验证码</title>
+    <script>
+        window.onload = function () {
+            var img = document.getElementById("check")//获取图片对象
+            img.onclick = function () {//点击事件
+                var date=new Date().getTime();//时间戳
+                img.src = "/yanzmaServlet?"+date;//想要点击图片换验证码，后面必须加参数（get请求方式，请求行后面有参数），参数必须为不重复的，否则浏览器会默认展现缓存的数据
+            }
+       /*     var a = document.getElementById("change");
+            a.onclick = function () {超链接不需要这么去做，只需要直接跳转到该页面就会自动刷新，验证码也会自动变
+                var date=new Date().getTime();
+                a.href = "yanzmaServlet?"+date;
+            }*/
+        }
+    </script>
+</head>
+<body>
+<img id="check" src="/yanzmaServlet">
+<a id="change" href="/yanzhengma.html">看不清，换一张</a>
+</body>
+</html>

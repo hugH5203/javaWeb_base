@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/denglu/denglu.iml" filepath="$PROJECT_DIR$/denglu/denglu.iml" />
+      <module fileurl="file://$PROJECT_DIR$/guanli_system/guanli_system.iml" filepath="$PROJECT_DIR$/guanli_system/guanli_system.iml" />
+      <module fileurl="file://$PROJECT_DIR$/html.iml" filepath="$PROJECT_DIR$/html.iml" />
+      <module fileurl="file://$PROJECT_DIR$/my_tomcat/my_tomcat.iml" filepath="$PROJECT_DIR$/my_tomcat/my_tomcat.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xiangmu/xiangmu.iml" filepath="$PROJECT_DIR$/xiangmu/xiangmu.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zheng_tomcat/zheng_tomcat.iml" filepath="$PROJECT_DIR$/zheng_tomcat/zheng_tomcat.iml" />
+    </modules>
+  </component>
+</project>
